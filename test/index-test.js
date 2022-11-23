@@ -17,7 +17,7 @@ describe('logShout(string)', function() {
 
     logShout('hello');
 
-    expect(spy).toHaveBeenCalledWith('HELLO');
+    expect(spy).toHaveBeenCalledWith('HELLO');sayHiToHeadphonedRoommate("hello").toEqual("I can't hear you!")
 
     console.log.restore();
   })
